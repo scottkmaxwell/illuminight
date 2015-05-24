@@ -47,36 +47,6 @@ body {
 	background-size: cover;
 }
 
-
-#fotomosaic
-{
-	width:100%;
-	height: 500px;
-	position: relative;
-	padding-top: 40px;
-}
-
-#fotomosaic img {
-	height: 460px;
-}
-
-/* Replace the last selector for the type of element you have in
-   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
-   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
-#fotomosaic div.scrollableArea img
-{
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 0;
-	/* If you don't want the images in the scroller to be selectable, try the following
-	   block of code. It's just a nice feature that prevent the images from
-	   accidentally becoming selected/inverted when the user interacts with the scroller. */
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
 }
 
 .new-app-banner-container {
@@ -1096,7 +1066,7 @@ body {
 }
 
 #header-foto-text p {
-	font-size: 33px;
+	font-size: 29px;
 	font-weight: 100;
 
 }
@@ -1151,10 +1121,18 @@ background: url(../images/foto1.jpg);
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.87);
 }
 
-.btn-lumu {
-	background-color:#D83B1C;
+.btn-illuminight {
+	background-color: #293a47;
+    color: white;
+    border-color: #293a47;
 	/*font-size: 16pt;*/
 }
+
+.btn-illuminight:hover {
+    background-color: #1d2e3b ;
+    border-color: #1d2e3b;
+}
+
 
 #step1-left {
 	opacity:0;
