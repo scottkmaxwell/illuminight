@@ -1521,7 +1521,8 @@ ol {
 /* Bootstrap changes. */
 footer {
 	text-align: center;
-	height:300px;
+	padding-top: 5px;
+	height:30px;
 	background-color:#2D2B28;
 	color:#fff;
 }
