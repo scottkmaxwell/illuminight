@@ -1011,15 +1011,15 @@ body {
 	}
 
 .header-foto {
-	background: #1C1C1C url("../img/sleeping_girl1.jpg") no-repeat center top;
+	background: #1C1C1C url("../img/sleeping_girl.jpg") no-repeat center top;
 	/*-webkit-background-size: auto 700px;
 	-moz-background-size: auto 700px;*/
 	background-size: cover;
-	height: 700px;
+	height: 850px;
 }
 
 #header-foto-text {
-	padding-top: 450px;
+	padding-top: 505px;
 	/*padding-right: 50px;*/
 	color: black;
 	font-size:45px;
