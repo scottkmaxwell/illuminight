@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumu is a light meter for the iPhone. Changing the way we think about light meters. For photographers with a heartbeat, individuals with a lifestyle, aspirations and dreams. ">
+    <meta name="keywords" content="Lumu, pocket, light, meter, photography, video">
+    <meta name="author" content="Lumulabs">
+    <!--<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">-->
+
+    <title>Illuminight Instructions</title><!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"><!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="instructions">
+
+<div class="black-background">
+    <!-- ================================NAVIGATION================================ -->
+    <div class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/Illuminight_logofinal.png" alt="logo_white"></a>
+
+            </div>
+
+            <div class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav links">
+
+                    <li class="discover"><a href="index.html">DISCOVER</a></li>
+                    <li class="cost"><a href="cost.html">COST</a></li>
+                    <li class="instructions"><a href="instructions.html">INSTRUCTIONS</a></li>
+                    <li class="physics"><a href="physics.html">PHYSICS</a></li>
+
+                </ul>
+
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- ================================HEADER================================ -->
+
+
+    <div class="header-foto">
+
+        <div class="container">
+            <div id="header-foto-text">
+                <h3>ILLUMINIGHT</h3>
+                <p>A MODERN BEDTIME STORY.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ================================FOOTER================================ -->
+
+
+<footer>
+
+    <p>&copy; Illuminight 2015</p>
+</footer>
+
+
+<!-- /container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script src="js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="js/script.js" type="text/javascript">
+</script>
+<script src="js/greensock/TweenMax.min.js" type="text/javascript">
+</script>
+<script src="js/jquery.superscrollorama.js" type="text/javascript">
+</script>
+
+
+<!-- Mobile front page fixes -->
+<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+<script>
+    $(document).ready(function() {
+
+        if (Modernizr.touch) {
+            $('#light-meter-container').removeClass('visible-md').removeClass('visible-lg').hide();
+            $('#light-meter-small').removeClass('visible-xs').removeClass('visible-sm').show();
+            // $('#lumu-effect').removeClass('visible-md').removeClass('visible-lg').hide();
+            // $('#lumu-effect-small').removeClass('visible-xs').removeClass('visible-sm').show();
+            $('#lumu-steps').removeClass('visible-md').removeClass('visible-lg').hide();
+            $('#lumu-steps-mobile').removeClass('visible-xs').removeClass('visible-sm').show();
+        }
+
+    });
+</script>
+
+<script type="text/javascript">
+    // plain JavaScript example
+    function jsonpCallback(data) {
+        // alert('Code: ' + $.inArray(data.countryCode, ['US']));
+
+        if ($.inArray(data.countryCode, ['US']) > -1) {
+            $('#shop-button').attr("onClick", "parent.location = 'http://shop-us.lu.mu'" );
+            $('#moments-shop-button').attr("onClick", "parent.location = 'http://shop-us.lu.mu'" );
+            $('#moments-shop-button-small').attr("onClick", "parent.location = 'http://shop-us.lu.mu'" );
+            $('#discount-link').attr("href", "http://shop-us.lu.mu" );
+        } else {
+            $('#shop-button').attr("onClick", "parent.location = 'http://shop.lu.mu'" );
+            $('#moments-shop-button').attr("onClick", "parent.location = 'http://shop.lu.mu'" );
+            $('#moments-shop-button-small').attr("onClick", "parent.location = 'http://shop.lu.mu'" );
+            $('#discount-link').attr("href", "http://shop.lu.mu" );
+        }
+    }
+</script>
+
+<script src="http://ip-api.com/json/?callback=jsonpCallback" type="text/javascript" async></script>
+
+
+
+</body>
+</html>

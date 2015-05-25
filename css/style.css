@@ -466,16 +466,16 @@ body {
 	padding-left: 20px;
 }
 
-#lightmeter, #apps {
+#instructions, #cost {
 	background-color: white;
 }
 
-#lightmeter h4, #new-app-header h4 {
+#instructions h4, #new-app-header h4 {
 	color: #929292;
 	font-size: 30px;
 }
 
-#apps h4 {
+#cost h4 {
 	font-size: 40px;
 }
 
@@ -1122,15 +1122,16 @@ background: url(../images/foto1.jpg);
 }
 
 .btn-illuminight {
-	background-color: #242d49;
-    color: white;
-    border-color: #242d49;
+	background-color: #ffffff;
+    color: black;
+    border-color: #ffffff;
 	/*font-size: 16pt;*/
 }
 
 .btn-illuminight:hover {
-    background-color: #1a2135;
-    border-color: #1a2135;
+    background-color: #eeeeee;
+    color: black;
+    border-color: #eeeeee;
 }
 
 
@@ -1336,7 +1337,7 @@ background-size:contain;
 
 #three-steps
 {
-	padding-top: 70px;
+	padding-top: 0;
 }
 
 .three-steps-step
@@ -1516,8 +1517,8 @@ footer {
 {
 	padding: 60px 10px;
 	font-size: 28px;
-	color: rgba(255,255,255,0.8);
-	background-color: rgba(0,0,0,0.75);
+	color: rgb(255, 255, 255);
+	background-color: rgba(0,0,0,0.65);
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.87);
 }
 
@@ -1629,7 +1630,7 @@ a:hover {
 	/*background-color: red;*/
 }
 
-#home .home > a, #discover .discover > a, #apps .apps > a, #lightmeter .lightmeter > a, #blog .blog > a {
+#home .home > a, #discover .discover > a, #cost .cost > a, #instructions .instructions > a, #physics .physics > a {
 	color:#fff;
 	font-size:17px;
 }
@@ -1924,11 +1925,11 @@ a:hover {
 	}
 
 
-	#lightmeter, #apps h3 {
+	#instructions, #cost h3 {
 		font-size: 30px;
 	}
 
-	#lightmeter, #apps h4 {
+	#instructions, #cost h4 {
 		font-size: 22px;
 	}
 
@@ -1948,7 +1949,7 @@ a:hover {
 	}
 
 
-	.apps-text, .app-section-text p, .made-container p, #lightmeter p {
+	.apps-text, .app-section-text p, .made-container p, #instructions p {
 		font-size: 16px;
 	}
 
