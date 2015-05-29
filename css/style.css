@@ -446,6 +446,10 @@ body {
 	margin: 0 auto;
 }
 
+.info-text {
+	color: #b3b3b3;
+}
+
 .app-download {
 	padding-bottom: 50px;
 	/*padding-left: 40px;
@@ -1022,6 +1026,14 @@ body {
 	-moz-background-size: auto 700px;*/
 	background-size: cover;
 	height: 850px;
+}
+
+.header-foto-physics {
+    background: #1C1C1C url("../img/physics.jpg") no-repeat center top;
+    /*-webkit-background-size: auto 700px;
+    -moz-background-size: auto 700px;*/
+    background-size: cover;
+    height: 850px;
 }
 
 .header-foto-instructions {
