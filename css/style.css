@@ -723,9 +723,11 @@ body {
 }
 
 .carousel-slide {
-	height: 500px;
+	height: 641px;
+	width: 962px;
 	background-size: cover;
 	background-position: center center;
+	padding-left: 90px;
 }
 
 #carousel-lifestyle {
@@ -1847,10 +1849,13 @@ a:hover {
 	}
 
 	.carousel-slide {
-		height: 250px;
+		height: 340px;
+		/*width: 481px;*/
+	}
+	.carousel-slide img {
+		width: 481px;
 	}
 
-		
 
 	#foto-background {
 		height:600px;

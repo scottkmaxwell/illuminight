@@ -70,49 +70,42 @@
 		</div>
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#carousel-lifestyle" data-slide-to="0" class=""></li>
-			<li data-target="#carousel-lifestyle" data-slide-to="1" class=""></li>
-			<li data-target="#carousel-lifestyle" data-slide-to="2" class=""></li>
-			<li data-target="#carousel-lifestyle" data-slide-to="3" class=""></li>
-			<!-- <li data-target="#carousel-lifestyle" data-slide-to="4"></li> -->
-
+			<li data-target="#carousel-lifestyle" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-lifestyle" data-slide-to="1"></li>
+			<li data-target="#carousel-lifestyle" data-slide-to="2"></li>
+			<li data-target="#carousel-lifestyle" data-slide-to="3"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
-			<div class="item">
-				<div id="slide-1" class="carousel-slide" style="height: 641px;">
-					<img src="img/open_box.jpg" height="641" width="962" style="display: none;">
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div id="slide-1" class="carousel-slide">
+					<img src="img/open_box.jpg">
 				</div>
 			</div>
-			<!-- <div class="item">
+			<div class="item">
 				<div id="slide-2" class="carousel-slide">
-					<img src="../images/lifestyle_2.jpg" height="2001" width="3000" style="display: none;">
+					<img src="img/closed_box.jpg">
 				</div>
-			</div> -->
+			</div>
 			<div class="item">
-				<div id="slide-2" class="carousel-slide" style="height: 641px;">
-					<img src="img/closed_box.jpg" height="641" width="962" style="display: none;">
+				<div id="slide-3" class="carousel-slide">
+					<img src="img/toy_gearside.jpg">
 				</div>
 			</div>
-			<div class="item active left">
-				<div id="slide-3" class="carousel-slide" style="height: 641px;">
-					<img src="img/toy_gearside.jpg" height="641" width="962" style="display: none;">
-				</div>
-			</div>
-			<div class="item next left">
-				<div id="slide-4" class="carousel-slide" style="height: 641px;">
-					<img src="img/disc.jpg" height="641" width="962" style="display: none;">
+			<div class="item">
+				<div id="slide-4" class="carousel-slide">
+					<img src="img/disc.jpg">
 				</div>
 			</div>
 
 		</div>
 
 		<!-- Controls -->
-		<!-- 	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		<!-- <a class="left carousel-control" href="#carousel-lifestyle" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <a class="right carousel-control" href="#carousel-lifestyle" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a> -->
 	</div>
@@ -241,21 +234,13 @@
 		</script>
 		<script src="js/jquery.superscrollorama.js" type="text/javascript">
 		</script>
-        <script>
-            $( document ).ready(function() {
-                $('.carousel').carousel({
-                    interval: 3000
-                    // pause: "none"
-                })
-            });
-        </script>
 
-        <script type="text/javascript">
-            $(window).on( 'resize', function () {
-                $('.carousel-slide').height( $('#carousel-lifestyle').width() * 9/16 );
-                // $('#debug').text($('.carousel-slide').height() + " - "+$('.carousel-slide').width()+ " - "+ $('#carousel-lifestyle').width() + " - "+$('.carousel-slide').width()/$('.carousel-slide').height());
-            }).resize();
-        </script>
+        <!--<script type="text/javascript">-->
+            <!--$(window).on( 'resize', function () {-->
+                <!--$('.carousel-slide').height( $('#carousel-lifestyle').width() * 9/16 );-->
+                <!--// $('#debug').text($('.carousel-slide').height() + " - "+$('.carousel-slide').width()+ " - "+ $('#carousel-lifestyle').width() + " - "+$('.carousel-slide').width()/$('.carousel-slide').height());-->
+            <!--}).resize();-->
+        <!--</script>-->
 
 		<!-- Mobile front page fixes -->
 		<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
