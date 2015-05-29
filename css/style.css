@@ -554,6 +554,7 @@ body {
 
 #made-title {
 	padding-bottom: 80px;
+    color: white;
 }
 
 .made-container {
@@ -1022,7 +1023,7 @@ body {
 }
 
 .header-foto-instructions {
-    background: #1C1C1C url("../img/storytelling.jpg") no-repeat center top;
+    background: #1C1C1C url("../img/dark_boxinroom%20(1).jpg") no-repeat center top;
     /*-webkit-background-size: auto 700px;
     -moz-background-size: auto 700px;*/
     background-size: cover;
@@ -1033,6 +1034,21 @@ body {
 	padding-top: 595px;
 	/*padding-right: 50px;*/
 	color: black;
+	font-size:45px;
+	/*float: right;
+	clear: both;*/
+	font-family:"HelveticaNeue",Helvetica,sans-serif;
+	/*background-color: red;*/
+	/*width: 500px;*/
+	text-align: left;
+	/*text-shadow: 0 0 10px rgba(0, 0, 0, 0.99);*/
+
+}
+
+#header-foto-text-instructions {
+	padding-top: 595px;
+	/*padding-right: 50px;*/
+	color: white;
 	font-size:45px;
 	/*float: right;
 	clear: both;*/
@@ -1375,7 +1391,7 @@ background-size:contain;
 
 #three-steps
 {
-	padding-top: 0;
+	padding-top: 15px;
 }
 
 .three-steps-step
@@ -1599,7 +1615,7 @@ h2 {
 h3 {
 	font-family:'Open Sans',sans-serif;
 	font-weight:100;
-	font-size:46px;
+	font-size:35px;
 }
 
 h4 {
@@ -1611,7 +1627,7 @@ h4 {
 p {
 	font-family:'Open Sans',sans-serif;
 	font-weight:300;
-	font-size:16px;
+	font-size:25px;
 }
 
 a {
