@@ -845,7 +845,6 @@ pre code {
 .col-md-3,
 .col-lg-3,
 .col-xs-4,
-.col-sm-4,
 .col-md-4,
 .col-lg-4,
 .col-xs-5,
@@ -883,7 +882,15 @@ pre code {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
+  padding-left: 150px;
+}
+
+.col-sm-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
   padding-left: 15px;
+
 }
 
 .col-xs-1,
@@ -1140,7 +1147,7 @@ pre code {
     width: 58.333333333333336%;
   }
   .col-sm-6 {
-    width: 50%;
+    width: auto;
   }
   .col-sm-5 {
     width: 41.66666666666667%;

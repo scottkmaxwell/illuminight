@@ -1030,6 +1030,14 @@ body {
     height: 850px;
 }
 
+.header-foto-cost {
+    background: #1C1C1C url("../img/money.jpg") no-repeat center top;
+    /*-webkit-background-size: auto 700px;
+    -moz-background-size: auto 700px;*/
+    background-size: cover;
+    height: 850px;
+}
+
 #header-foto-text {
 	padding-top: 595px;
 	/*padding-right: 50px;*/
@@ -1057,6 +1065,21 @@ body {
 	/*width: 500px;*/
 	text-align: left;
 	/*text-shadow: 0 0 10px rgba(0, 0, 0, 0.99);*/
+
+}
+
+#header-foto-text-cost {
+    padding-top: 595px;
+    /*padding-right: 50px;*/
+    color: white;
+    font-size:45px;
+    /*float: right;
+    clear: both;*/
+    font-family:"HelveticaNeue",Helvetica,sans-serif;
+    /*background-color: red;*/
+    /*width: 500px;*/
+    text-align: right;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.99);*/
 
 }
 
@@ -1391,7 +1414,7 @@ background-size:contain;
 
 #three-steps
 {
-	padding-top: 15px;
+	padding-top: 60px;
 }
 
 .three-steps-step
